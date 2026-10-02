@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Desiderio Lukebana | Full Stack Developer</title>
+
+    <link rel="stylesheet" href="Dwil.css">
+
+    <!-- Ícones -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         BARRA DE NAVEGAÇÃO
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>&lt;</span>DWIL<span>/&gt;</span>
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button id="menuBtn" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         PERFIL
+    ========================== -->
+
+    <main id="inicio">
+
+        <section class="profile-container">
+
+            <!-- CAPA -->
+
+            <div class="cover-photo" aria-label="Capa do perfil">
+
+                <div class="cover-overlay"></div>
+
+                <div class="cover-content">
+
+                    <span class="cover-badge">Full Stack Developer</span>
+
+                    <h1>FULL STACK DEVELOPER</h1>
+
+                    <p>
+                        Tecnologia • Programação • Inovação
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PERFIL -->
+
+            <div class="profile-section">
+
+                <div class="profile-main">
+
+                    <div class="profile-image-container">
+
+                        <img
+                            src="assets/Me.jpg"
+                            alt="Foto de perfil"
+                            class="profile-image"
+                            onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80';"
+                        >
+
+                        <span class="online-status"></span>
+
+                    </div>
+
+
+                    <div class="profile-info">
+
+                        <div class="profile-heading">
+
+                            <h1>Desiderio Lukebana</h1>
+
+                            <p class="username">
+                                @desiderio.dev
+                            </p>
+
+                        </div>
+
+                        <div class="profile-meta">
+
+                            <span>
+                                <i class="fas fa-briefcase"></i>
+                                Full Stack Developer
+                            </span>
+
+                            <span>
+                                <i class="fas fa-location-dot"></i>
+                                Angola
+                            </span>
+
+                        </div>
+
+                        <p class="bio">
+                            Criador de soluções digitais, estudante de tecnologia
+                            e desenvolvedor interessado em programação,
+                            desenvolvimento web e inovação.
+                        </p>
+
+                        <div class="profile-buttons">
+
+                            <button
+                                class="btn-primary"
+                                onclick="scrollToSection('contacto')"
+                            >
+                                <i class="fas fa-paper-plane"></i>
+                                Contactar
+                            </button>
+
+                            <button
+                                class="btn-secondary"
+                                onclick="scrollToSection('projetos')"
+                            >
+                                <i class="fas fa-code"></i>
+                                Projetos
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- REDES SOCIAIS -->
+
+                    <div class="social-icons">
+
+                        <a href="#" title="GitHub" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#" title="Instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#" title="Facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#" title="LinkedIn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MENU DO PERFIL -->
+
+            <div class="profile-menu">
+
+                <a href="#sobre" class="active">
+                    <i class="fas fa-user"></i>
+                    Sobre
+                </a>
+
+                <a href="#habilidades">
+                    <i class="fas fa-code"></i>
+                    Habilidades
+                </a>
+
+                <a href="#projetos">
+                    <i class="fas fa-rocket"></i>
+                    Projetos
+                </a>
+
+                <a href="#contacto">
+                    <i class="fas fa-envelope"></i>
+                    Contacto
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOBRE MIM
+        ========================== -->
+
+        <section id="sobre" class="section">
+
+            <div class="section-title">
+
+                <span>01</span>
+
+                <h2>Sobre Mim</h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <div class="icon">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+
+                    <h3>Quem sou</h3>
+
+                    <p>
+                        Sou estudante e desenvolvedor interessado
+                        em tecnologia, programação, desenvolvimento
+                        web e criação de soluções digitais.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <h3>O que faço</h3>
+
+                    <p>
+                        Desenvolvo websites, aplicações e sistemas
+                        utilizando tecnologias modernas de
+                        desenvolvimento de software.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+
+                    <h3>Meu objetivo</h3>
+
+                    <p>
+                        Transformar ideias em produtos digitais
+                        funcionais, modernos e úteis.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HABILIDADES
+        ========================== -->
+
+        <section id="habilidades" class="section">
+
+            <div class="section-title">
+
+                <span>02</span>
+
+                <h2>Minhas Habilidades</h2>
+
+            </div>
+
+
+            <div class="skills-container">
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fab fa-html5"></i>
+                            HTML
+                        </span>
+
+                        <span>90%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="90%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fab fa-css3-alt"></i>
+                            CSS
+                        </span>
+
+                        <span>85%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="85%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fab fa-js"></i>
+                            JavaScript
+                        </span>
+
+                        <span>25%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="25%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fab fa-node-js"></i>
+                            Node.js
+                        </span>
+
+                        <span>70%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="70%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fas fa-database"></i>
+                            MySQL
+                        </span>
+
+                        <span>70%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="70%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fab fa-react"></i>
+                            React / React Native
+                        </span>
+
+                        <span>35%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="35%"
+                        ></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="linguas" class="section">
+
+            <div class="section-title">
+
+                <span>03</span>
+
+                <h2>Línguas que falo</h2>
+
+            </div>
+
+
+            <div class="skills-container">
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fas fa-language"></i>
+                            Francês
+                        </span>
+
+                        <span>20%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="20%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fas fa-language"></i>
+                            Koreano
+                        </span>
+
+                        <span>5%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="5%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fas fa-language"></i>
+                            Inglês
+                        </span>
+
+                        <span>75%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="75%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-header">
+
+                        <span>
+                            <i class="fas fa-language"></i>
+                            Lingala
+                        </span>
+
+                        <span>90%</span>
+
+                    </div>
+
+                    <div class="progress">
+                        <div
+                            class="progress-bar"
+                            data-width="90%"
+                        ></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJETOS
+        ========================== -->
+
+        <section id="projetos" class="section">
+
+            <div class="section-title">
+
+                <span>04</span>
+
+                <h2>Meus Projetos</h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/project1.jpg"
+                            alt="Projeto"
+                        >
+
+                        <div class="project-overlay">
+
+                            <button>
+                                <i class="fas fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fab fa-github"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            WEB DEVELOPMENT
+                        </span>
+
+                        <h3>
+                            Sistema Escolar
+                        </h3>
+
+                        <p>
+                            Sistema de informação acadêmica
+                            para estudantes.
+                        </p>
+
+                        <div class="tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            FULL STACK
+                        </span>
+
+                        <h3>
+                            Marketplace
+                        </h3>
+
+                        <p>
+                            Plataforma para publicação e
+                            comercialização de projetos digitais.
+                        </p>
+
+                        <div class="tags">
+
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            TECHNOLOGY
+                        </span>
+
+                        <h3>
+                            Projetos Arduino
+                        </h3>
+
+                        <p>
+                            Projetos envolvendo eletrônica,
+                            sensores e programação.
+                        </p>
+
+                        <div class="tags">
+
+                            <span>Arduino</span>
+                            <span>C++</span>
+                            <span>IoT</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section id="contacto" class="section">
+
+            <div class="section-title">
+
+                <span>04</span>
+
+                <h2>Entre em Contacto</h2>
+
+            </div>
+
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <h3>
+                        Vamos criar algo incrível?
+                    </h3>
+
+                    <p>
+                        Se tens uma ideia, projeto ou simplesmente
+                        queres conversar sobre tecnologia, entra
+                        em contacto comigo.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <i class="fas fa-envelope"></i>
+
+                        <div>
+
+                            <span>Email</span>
+
+                            <p>
+                                seuemail@email.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fas fa-location-dot"></i>
+
+                        <div>
+
+                            <span>Localização</span>
+
+                            <p>
+                                Angola
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form id="contactForm">
+
+                    <input
+                        type="text"
+                        placeholder="Seu nome"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Seu email"
+                        required
+                    >
+
+                    <textarea
+                        placeholder="Escreva sua mensagem..."
+                        required
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        class="btn-primary"
+                    >
+
+                        <i class="fas fa-paper-plane"></i>
+
+                        Enviar mensagem
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            &lt;DWIL/&gt;
+        </div>
+
+        <p>
+            Desenvolvido por Desiderio Lukebana
+        </p>
+
+        <div class="footer-social">
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="Dwil.js"></script>
+
+</body>
+</html>
